@@ -54,7 +54,7 @@ function geraSenha(){
     }
     let senha = '';
     for (let i = 0 ; i < tamanhoSenha; i++){
-        let numeroAleatorio = Math.random() * alfabeto.length;
+        let numeroAleatorio = Math.random() * alfabeto.lenght;
         numeroAleatorio = Math.floor(numeroAleatorio);
         senha = senha + alfabeto[numeroAleatorio];
     }
